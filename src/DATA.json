@@ -1,0 +1,129 @@
+{
+	"account": "1212121",
+	"vpcs": [
+		{
+			"name": "VPC1",
+			"clusters" : [
+				{
+					"name": "cluster 1",
+					"products": [
+						{
+							"name": "EMS",
+							"environments": [
+								{
+									"name": "production",
+									"services": {
+										"common": [
+											{
+												"name": "common-test1"
+											},
+											{
+												"name": "common-test2"
+											}
+										],
+										"business": [
+											{
+												"name": "business-test1"
+											},
+											{
+												"name": "business-test2"
+											}
+										]
+									}
+								}
+							]
+						},
+						{
+							"name": "Procurement",
+							"environments": [
+								{
+									"name": "dev",
+									"services": {
+										"common": [
+											{
+												"name": "common-test1"
+											},
+											{
+												"name": "common-test2"
+											}
+										],
+										"business": [
+											{
+												"name": "business-test1"
+											},
+											{
+												"name": "business-test2"
+											}
+										]
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "VPC2",
+			"clusters" : [
+				{
+					"name": "cluster 1",
+					"products": [
+						{
+							"name": "EMS",
+							"environments": [
+								{
+									"name": "production",
+									"services": {
+										"common": [
+											{
+												"name": "common-test1"
+											},
+											{
+												"name": "common-test2"
+											}
+										],
+										"business": [
+											{
+												"name": "business-test1"
+											},
+											{
+												"name": "business-test2"
+											}
+										]
+									}
+								}
+							]
+						},
+						{
+							"name": "Procurement",
+							"environments": [
+								{
+									"name": "dev",
+									"services": {
+										"common": [
+											{
+												"name": "common-test1"
+											},
+											{
+												"name": "common-test2"
+											}
+										],
+										"business": [
+											{
+												"name": "business-test1"
+											},
+											{
+												"name": "business-test2"
+											}
+										]
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}   
